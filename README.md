@@ -1,5 +1,7 @@
 # Random Quote Lobster
 
+![Random Quote Lobster](https://raw.githubusercontent.com/jamespayne/randomquotelobser/master/img/randomquotelobster.png)
+
 This was a project that I created for the freecodecamp.com Front End Course.
 
 ## Features
