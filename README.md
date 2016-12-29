@@ -4,6 +4,10 @@
 
 This was a project that I created for the freecodecamp.com Front End Course.
 
+## Demo
+
+You can find a demo [here](http://codepen.io/jlpayne/pen/yVZrLW) on codepen.
+
 ## Features
 
 * Get a random quote with the author's name
