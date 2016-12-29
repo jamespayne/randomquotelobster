@@ -1,8 +1,4 @@
-$(document).ready(function() {
-
-  getQuote();
-
-  function getQuote() {
+function getQuote() {
 
     var quotetext = "";
     var author = "";
@@ -21,7 +17,7 @@ $(document).ready(function() {
 
       if (author.length === 0) {
         quotetext = quote + ' - ' + ' Unknown';
-        $("#quote").html('<p>' + quotetext);
+        $("#quote").html('<p>' + quotetext + '</p>');
       } else {
         quotetext = quote;
         $("#quote").html('<p>' + '"' + quote + '" ' + "- " + '<a href="" id="author">' + author + '</a></p>');
@@ -42,14 +38,18 @@ $(document).ready(function() {
 
     });
 
-  }
+}
+
+$(document).ready(function() {
+
+  $('[data-toggle="tooltip"]').tooltip();
+
+  getQuote();
 
   // Click the lobster for another quote after the first quote has been loaded.
 
   $("#lobster").on("click", function() {
     getQuote();
   });
-
-  $('[data-toggle="tooltip"]').tooltip();
 
 });
