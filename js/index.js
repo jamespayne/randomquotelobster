@@ -29,13 +29,15 @@ $(document).ready(function() {
 
       // Set up the twitter button URL.
 
-      var twitterurl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(quotetext);
+      var twitterurl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(quotetext + '-' + author);
       $('#twitter-share').attr("href", twitterurl);
 
       // Query wikipedia and see if there is an article about the author and provide a link if possible. This needs some error handling as there may not be a page or the author is unknown.
 
       $.getJSON('https://en.wikipedia.org//w/api.php?action=query&origin=*&format=json&prop=info&meta=&titles=' + wikiauthor + '&redirects=1&formatversion=latest&inprop=url', function(json) {
+
         $("#author").attr('href', json.query.pages[0].fullurl)
+
       });
 
     });
