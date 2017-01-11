@@ -1,6 +1,6 @@
 # Random Quote Lobster
 
-![Random Quote Lobster](https://github.com/jamespayne/randomquotelobster/blob/master/img/randomquotelobster.png?raw=true)
+<a href="http://codepen.io/jlpayne/pen/yVZrLW">![Random Quote Lobster](https://github.com/jamespayne/randomquotelobster/blob/master/img/randomquotelobster.png?raw=true)</a>
 
 This was a project that I created for the freecodecamp.com Front End Course.
 
