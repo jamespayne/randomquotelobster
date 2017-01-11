@@ -16,9 +16,9 @@ You can find a demo [here](http://codepen.io/jlpayne/pen/yVZrLW) on codepen.
 
 ## APIs Used
 
-* [Formtastic's Random Quote API](http://forismatic.com/en/api/)
-* [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
-* [Twitter REST API](https://dev.twitter.com/rest/public)
+* [Formtastic's Random Quote](http://forismatic.com/en/api/)
+* [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)
+* [Twitter](https://dev.twitter.com/rest/public)
 
 ## Frameworks
 
