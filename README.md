@@ -11,7 +11,7 @@ You can find a demo [here](http://codepen.io/jlpayne/pen/yVZrLW) on codepen.
 ## Features
 
 * Get a random quote with the author's name
-* Provide a link to the author's wikipedia page
+* Provide a link to the author's wikipedia page (bonus feature)
 * Tweet button to tweet the current quote.
 
 ## APIs Used
